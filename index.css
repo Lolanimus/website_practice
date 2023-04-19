@@ -73,9 +73,13 @@ button {
     border-style: none;
     background-color: #3882F6;
     color: #F9FAF8;
-    border-color: #3882F6;
     border-radius: 8px;
+    height:auto;
     padding: 8px 32px;
+}
+
+.text1 button {
+    border: 2px solid #3882F6;
 }
 
 .logo {
@@ -140,4 +144,33 @@ button {
     font-weight: 1000;
     text-align: end;
     margin: 16px 0;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #3882F6;
+    border-radius: 8px;
+    margin: 155px 230px;
+    padding: 40px 100px;
+    background-color: #3882F6;
+}
+
+.container41 {
+    color: #F9FAF8;
+}
+
+.action1 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #E5E7EB;
+}
+.action2 {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+.container4 button {
+    border: 2px solid #E5E7EB;
 }
